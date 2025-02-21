@@ -60,3 +60,4 @@ Hello, World!
 ```
 
 これで最初のCOBOLプログラムが実行できました。
+(Chapter 2に続く)

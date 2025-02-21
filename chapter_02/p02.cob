@@ -1,0 +1,19 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. INPUT-DISPLAY.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 USER-INTEGER PIC 9(2) VALUE 0.
+       01 USER-FLOAT PIC 9(2)V9(2) VALUE 0.0.
+       01 ANSWER PIC 9(3)V9(2) VALUE 0.0.
+
+       PROCEDURE DIVISION.
+           DISPLAY "整数を入力してください"
+           ACCEPT USER-INTEGER.
+           DISPLAY "少数を入力してください"
+           ACCEPT USER-FLOAT.
+
+           ADD USER-INTEGER TO USER-FLOAT GIVING ANSWER.
+           DISPLAY "合計: " ANSWER.
+
+           STOP RUN.
