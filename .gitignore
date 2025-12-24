@@ -9,3 +9,6 @@
 
 # DS_Store ファイルは無視
 .DS_Store
+
+# ビルド生成物は無視
+*.dylib
